@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?><!-- For Scrolling Function -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <!-- Root Layout -->
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFF"
+        android:orientation="vertical"
+        tools:context="com.example.android.quizapp.MainActivity">
+        <!-- Text View for Mathematics Quiz -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#CDDC39"
+            android:gravity="center"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:text="@string/MathematicsQuiz"
+            android:textSize="30sp" />
+        <!-- Text View for Question 1: 1+2=? -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:background="#CDDC39"
+            android:text="@string/question1" />
+        <!-- Radio Group for First Question 1 -->
+        <RadioGroup
+            android:id="@+id/radioGroupQuestion1Id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="2dp"
+            android:background="#F0F4C3">
+            <RadioButton
+                android:id="@+id/Q1Ans1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="@string/answer1" />
+            <RadioButton
+                android:id="@+id/Q1Ans2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/answer2" />
+            <RadioButton
+                android:id="@+id/Q1Ans3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/answer3" />
+            <RadioButton
+                android:id="@+id/Q1Ans4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/answer4" />
+        </RadioGroup>
+        <!-- Text View for Question 2: 1+1=? -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="2dp"
+            android:background="#CDDC39"
+            android:text="@string/question2" />
+        <!-- Radio Group for First Question 2 -->
+        <RadioGroup
+            android:id="@+id/radioGroupQuestion2Id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="2dp"
+            android:background="#F0F4C3">
+            <RadioButton
+                android:id="@+id/Q2Ans1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/answer1" />
+            <RadioButton
+                android:id="@+id/Q2Ans2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/answer2" />
+            <RadioButton
+                android:id="@+id/Q2Ans3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/answer3" />
+            <RadioButton
+                android:id="@+id/Q2Ans4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/answer4" />
+        </RadioGroup>
+        <!-- Text View for Question 3: 1+3=? -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="2dp"
+            android:background="#CDDC39"
+            android:text="@string/question3" />
+        <!-- Radio Group for Question 3 -->
+        <RadioGroup
+            android:id="@+id/radioGroupQuestion3Id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="2dp"
+            android:background="#F0F4C3">
+            <RadioButton
+                android:id="@+id/Q3Ans1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/answer1" />
+            <RadioButton
+                android:id="@+id/Q3Ans2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/answer2" />
+            <RadioButton
+                android:id="@+id/Q3Ans3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/answer3" />
+            <RadioButton
+                android:id="@+id/Q3Ans4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/answer4" />
+        </RadioGroup>
+        <!-- Submit Button -->
+        <Button
+            android:id="@+id/buttonSubmitId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="15dp"
+            android:background="#CDDC39"
+            android:text="@string/button_Submit"
+            android:textSize="20sp" />
+    </LinearLayout>
+</ScrollView>

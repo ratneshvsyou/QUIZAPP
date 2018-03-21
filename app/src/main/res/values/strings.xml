@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">QUIZAPP</string>
+    <string name="MathematicsQuiz">Mathematics Quiz</string>
+    <string name="question1">Question 1: One + Two=?</string>
+    <string name="question2">Question 2: One + One=?</string>
+    <string name="question3">Question 3: One + Three=?</string>
+    <string name="answer1">One</string>
+    <string name="answer2">Two</string>
+    <string name="answer3">Three</string>
+    <string name="answer4">Four</string>
+    <string name="button_Submit">Submit</string>
+    <string name="toast_Msg">Attempt all question !!!</string>
+    <string name="toast_Msg_score_3">You Scored 3 out of 3</string>
+    <string name="toast_Msg_score_2">You Scored 2 out of 3</string>
+    <string name="toast_Msg_score_1">You Scored 1 out of 3</string>
+    <string name="toast_Msg_score_0">You Scored 0 out of 3</string>
+</resources>
